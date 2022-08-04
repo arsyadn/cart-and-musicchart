@@ -1,0 +1,49 @@
+.search-popup-wrapper{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    height: fit-content;
+    background-color: #fff;
+    padding: 24px;
+    position: absolute;
+    right: 25px;
+    border-radius: 16px;
+}
+.search-popup-wrapper a {
+    text-decoration: none !important;
+}
+.each-item-search{
+    padding-bottom: 16px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-bottom: 1px solid #E5E5E5;;
+}
+.img-search-item{
+    margin-right: 32px;
+    margin-left: 32px;
+}
+.search-item p:first-child{
+    color: #2e2e2e;
+    font-size: 12px;
+    font-weight: 400;
+}
+.search-item p{
+    color: #8A8A8A;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .search-popup-wrapper{
+        z-index: 9999999;
+    }
+    .notif-deal-wrapper{
+        right: 0;
+        left: 0;
+        top: 200px;
+        width: 70%;
+        margin: auto;
+        overflow-y: scroll;
+        z-index: 99999;
+    }
+}
